@@ -1,0 +1,28 @@
+Network attached storage in DBMS
+With the phenomenal growth in digital data, particularly generated from multi-media and other enterprise application the need for high-performance storage solution at low cost has become extremely important. Network Attached Storage (NAS) devices are basically among the latest of storage devices being used for this purpose. These devices are in fact servers that basically do not provide any of the common server’s services, but simply allow the addition of storage of file sharing. NAS devices basically allow a vast amount of hard disk storage space to be added to a network and can make that space available to multiple servers without actually shutting down for maintenance and upgrades. These devices can reside anywhere on a LOCAL AREA NETWORK and may be combined in the different configuration. A single hardware device often called NAS box which basically act as an interface between the NAS system and network clients. These NAS systems do not require the monitor, keyboard or mouse. One or more disk or tape drives can be attached to many NAS system basically to increase the capacity. Clients basically connect to the NAS head rather than to the individual common storage devices. A NAS can store any data that appears in the form of files, such as emails boxes, Web Content, remote backups, and so on. In that sense, NAS devices are being deployed as a replacement for traditional servers. Advantages of Network attached storage –
+
+NAS Systems strive for reliable operation and easy administration.
+They basically include the built-in function such as secure authentication or the automatic sending of email alerts in case of error on the device.
+The NAS devices are being offered with a high degree of scalability, reliability, flexibility, and performance.
+These devices basically support RAID levels 0, 1, 5.
+Difference between Traditional Storage Area Network and NAS: These devices differ from Traditional Storage Area Network in several ways. Specifically, Storage Area Network often utilizes Fiber Channel rather than Ethernet, and it often incorporates multiple network devices or endpoints on a self-contained or private LAN whereas NAS relies on individual devices which used to connect directly to the previously existing public LAN. Whereas WINDOWS, UNIX, and NetWare file servers each demand protocol support on the client side, NAS system claim greater operating system independent of clients.
+
+Network Attached Storage (NAS) is a type of storage architecture that allows storage devices to be connected to a network and accessed by multiple clients over the network. In the context of a database management system (DBMS), NAS can be used as a storage solution for database files and backups.
+
+NAS can provide several advantages for DBMS, including:
+Scalability: NAS can be scaled up to meet increasing storage demands, without the need to add storage directly to the database server. This can help reduce costs and simplify storage management.
+
+Performance: NAS can provide high-performance storage that is optimized for database workloads. NAS systems can be configured with high-speed disks and network connections to provide fast access to data.
+
+Data protection: NAS can provide built-in data protection features, such as RAID and backup and restore capabilities. This can help ensure data availability and protect against data loss in case of hardware failures or other disasters.
+
+Accessibility: NAS can provide centralized storage that can be accessed by multiple database servers or clients over the network. This can help improve data accessibility and enable easier collaboration between teams.
+
+However, using NAS as a storage solution for DBMS also has some potential disadvantages, including:
+Network dependency: NAS relies on network connectivity to access data, which can make it vulnerable to network congestion or failures. This can result in reduced performance or data unavailability.
+
+Security: NAS can be vulnerable to network-based attacks, such as data interception or unauthorized access. Implementing strong security measures, such as network encryption and access control, is critical to protecting data stored on NAS.
+
+Configuration complexity: Configuring NAS for use with a DBMS can be complex and may require specialized expertise. Careful planning and configuration is required to ensure that the NAS solution is optimized for the specific database workload and data access patterns.
+
+Cost: NAS solutions can be expensive, especially when high-performance or high-availability features are required. Organizations should carefully evaluate the cost of NAS solutions against the benefits they provide before implementing them as a storage solution for their DBMS
